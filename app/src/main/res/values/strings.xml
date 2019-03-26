@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CustomLayout</string>
+
+    <string name="login">로그인</string>
+    <string name="id">ID</string>
+    <string name="passeord">password</string>
+
+    <string name="input_check">ID/PW를 확인하세요.</string>
+
+</resources>
