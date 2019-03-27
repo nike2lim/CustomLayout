@@ -62,7 +62,7 @@ public class LoginView extends ConstraintLayout implements View.OnClickListener 
                 if(false == validInput()) {
                     Toast.makeText(mContext, mContext.getString(R.string.input_check), Toast.LENGTH_SHORT).show();
                 }else {
-
+                    //TODO 서버 연동(로그인)
                 }
                 break;
         }
@@ -78,7 +78,7 @@ public class LoginView extends ConstraintLayout implements View.OnClickListener 
         String id = mIDEdit.getText().toString();
         String password = mPWEdit.getText().toString();
 
-        if(!TextUtils.isEmpty(id) && TextUtils.isEmpty(password)) {
+        if(!TextUtils.isEmpty(id) && !TextUtils.isEmpty(password)) {
             isValid = true;
         }
         return isValid;
